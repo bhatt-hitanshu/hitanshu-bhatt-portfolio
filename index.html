@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component Library</title>
+    <link href="style.css" rel="stylesheet"/>
 </head>
 <body>
     <h1>Component Library</h1>
@@ -17,27 +18,27 @@
     <p>this is with <strong>bold</strong>.</p>
     <hr>
     <h2>@containers</h2>
-    <h3>Centre Container</h3>
-    <p>This is a centre cotainer and the text inside it will be wrapped to a specified width to make it easy and convenient for the user to read</p>
+    <h3 style="padding: 0rem 1rem">Centre Container</h3>
+    <div class="container container-centre">This is a centre cotainer and the text inside it will be wrapped to a specified width to make it easy and convenient for the user to read</div>
     <h3>Fluid Container</h3>
-    <p>This is a fluid container and the text in it will go till the end of the page.</p>
+    <div class="container container-fluid">This is a fluid container and the text in it will go till the end of the page.</div>
     <hr>
     <h2>@links</h2>
-    <a href="/">Primary Link</a>
-    <a href="/">Secondary Link</a>
+    <a class="link link-primary" href="/">Primary Link</a>
+    <a class= "link link-secondary" href="/">Secondary Link</a>
     <hr>
     <h2>@lists</h2>
     <h3>Unorderd List</h3>
-    <ul>
+    <ul class=" list-non-bullet ">
         <li>Item One</li>
         <li>Item Two</li>
         <li>Item Three</li>
     </ul>
     <h3>Unordered In-line List</h3>
     <ul>
-        <li>Item first</li>
-        <li>Item Second</li>
-        <li>Item third</li>
+        <li class= "list-inline">Item first</li>
+        <li class= "list-inline">Item Second</li>
+        <li class= "list-inline">Item third</li>
     </ul>
     <h3>Ordered list</h3>
     <ol>
@@ -53,36 +54,44 @@
     </ol>
     <hr>
     <h2>@navigators</h2>
-    <nav>
-        <h3>brandNAme/personName</h3>
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/">Projects</a></li>
-            <li><a href="/">Blogs</a></li>
+    <nav class="navigators">
+        <div class="nav-name">brandName/personName</div>
+        <ul class="nav-list">
+            <li class= "list-inline">
+                <a class="link link-active" href="/">Home</a>
+            </li>
+            <li class= "list-inline">
+                <a class="link" href="/">Projects</a>
+            </li>
+            <li class= "list-inline">
+                <a class="link" href="/">Blogs</a>
+            </li>
         </ul>
     </nav>
     <hr>
     <h2>@header</h2>
-    <header>
-        <h3>content inside header</h3>
-        <img src="header-img.svg"/>
+    <header class="header">
+        <div class="header-heading">content <span style="color:var(--primary-color)">inside</span>  header</div>
+        <img class="header-img" src="header-img.svg"/>
     </header>   
     <hr>
     <h2>@section</h2>
-    <section>
-        <h3>White section</h3>
-        <p>This a white section.</p>
-        <h3>Off-White section</h3>
-        <p>This is an off-white section.</p>
+    <section class="section-w">
+        <div class="container container-centre"><h3>White Section</h3>
+        <p>This is a white section, text here will be white.</p></div>
+    </section>
+    <section class="section-ow">
+        <div class="container container-centre"><h3>Off-White Section</h3>
+        <p>This is an off-wite section.Text will be off-white in color here.</p></div>
     </section>
     <hr>
     <h2>@footer</h2>
-    <footer>
+    <footer class="footer">
         <h3>A small heading inside the footer</h3>
-        <ul>
-            <li><a href="/">socialLinkOne</a></li>
-            <li><a href="/">socialLinkTwo</a></li>
-            <li><a href="/">socialLinkThree</a></li>
+        <ul class="list-non-bullet">
+            <li class="list-inline"><a class="link" href="/">socialLinkOne</a></li>
+            <li class="list-inline"><a class="link" href="/">socialLinkTwo</a></li>
+            <li class="list-inline"><a class="link" href="/">socialLinkThree</a></li>
         </ul>
     </footer>
     
