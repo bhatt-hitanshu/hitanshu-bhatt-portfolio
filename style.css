@@ -3,10 +3,11 @@
     --primary-color: #38bdf8;
     --light-gray-color: #9ca3af;
     --off-white-color: #cbd5e1;
-    --gray-color:#374151;
+    --gray-color:#64748b;
 }
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0px;
 }
 .container{
     padding: 0rem 1rem; 
@@ -42,8 +43,8 @@ body{
     padding: 1rem 0.5rem; 
 }
 .nav-name{
-    color: white;
-    font-weight:bold;
+    color: var(--gray-color);
+    
     font-size:1.5rem;
 }
 .navigators .link{
@@ -63,7 +64,7 @@ body{
     font-weight: bold;
     font-size: 1.75rem;
     text-align: center;
-    color: var(--gray-color);
+    color: var(--light-gray-color);
 }
 .header-img{
     max-width:600px;
@@ -100,7 +101,7 @@ body{
 }
 .footer h3{
     text-align:center;
-    color:var(--gray-color);
+    color:white;
 }
 .footer ul{
     padding-inline-start: 0px;
