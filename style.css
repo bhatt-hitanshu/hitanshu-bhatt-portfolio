@@ -24,6 +24,7 @@ body{
     background-color: var(--primary-color);
     border-radius: 0.69rem;
     color: white;
+    margin: auto;
 }
 .link-secondary{
     color: var(--primary-color);
@@ -67,7 +68,7 @@ body{
     color: var(--light-gray-color);
 }
 .header-img{
-    max-width:600px;
+    max-width:450px;
     display: block;
     margin: auto;
 }
