@@ -111,3 +111,19 @@ body{
     padding-inline-start: 0px;
     margin-block-end: 0em;
 }
+.blog-list{
+    padding: 2rem;
+    text-align: centre;
+    margin:2rem auto;
+}
+article h1{
+    text-align: center;
+}
+article .link{
+    display: block;
+    max-width: 119px;
+}
+article .link-primary{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
