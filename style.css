@@ -127,3 +127,7 @@ article .link-primary{
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
 }
+.header-text{
+    padding-left:6.5rem;
+    color: var(--gray-color)
+}
