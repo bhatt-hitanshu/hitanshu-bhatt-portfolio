@@ -131,3 +131,30 @@ article .link-primary{
     padding-left:6.5rem;
     color: var(--gray-color)
 }
+section .link {
+    display: block;
+    max-width: 101px;
+}
+section .link-primary {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+section .link-acting1{
+    background-color: var(--primary-color);
+    border-radius: 0.69rem;
+    color: white;
+    margin:5rem auto;
+}
+section .link-acting2{
+    color: var(--primary-color);
+    border: 1.5px solid var(--primary-color);
+    border-radius: 0.69rem;
+
+
+}
+section .link-acting{
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: inline;
+}
